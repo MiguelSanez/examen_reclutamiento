@@ -45,7 +45,7 @@ const saveCsv = async (resultset) => {
         const fechaFinal = "31/" + row.fechaFinal.substring(4, 6) + "/" + row.fechaFinal.substring(0, 4);
 
         csvData.push([
-            row.codigoPostal,
+            row.codigo,
             row.estado,
             row.ciudad,
             fechaInicio,
